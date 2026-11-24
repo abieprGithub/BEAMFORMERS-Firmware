@@ -1,0 +1,3 @@
+C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/build/Debug/CMakeFiles/stm32g4_cdc.dir
+C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/build/Debug/CMakeFiles/edit_cache.dir
+C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/build/Debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,799 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "stm32g4_cdc.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/flags.cmake",
+			"cmake/files.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 9
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mlittle-endian"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "--specs=nano.specs"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=gnu11"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fstack-usage"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fcyclomatic-complexity"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STM32G431xx"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/USB_Device/App"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/USB_Device/Target"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Core/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/STM32G4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mlittle-endian"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "--specs=nano.specs"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "assembler-with-cpp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "DEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/USB_Device/App"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/USB_Device/Target"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Core/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/STM32G4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"id" : "stm32g4_cdc::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mcpu=cortex-m4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mlittle-endian",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "--specs=nano.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-TC:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/build/Debug/STM32G431CBUX_FLASH.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,-Map=C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/build/Debug/stm32g4_cdc.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-static",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "stm32g4_cdc",
+	"nameOnDisk" : "stm32g4_cdc.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32g4xx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32g4xx_hal_timebase_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32g4xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/system_stm32g4xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 1,
+			"path" : "Core/Startup/startup_stm32g431cbux.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "USB_Device/App/usb_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "USB_Device/App/usbd_cdc_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "USB_Device/App/usbd_desc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"backtraces" : 
+			[
+				10
+			],
+			"compileGroupIndex" : 0,
+			"path" : "USB_Device/Target/usbd_conf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

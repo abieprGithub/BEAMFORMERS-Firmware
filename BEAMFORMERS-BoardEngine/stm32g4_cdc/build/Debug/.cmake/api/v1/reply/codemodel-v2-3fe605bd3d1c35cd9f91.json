@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stm32g4_cdc",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32g4_cdc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32g4_cdc-Debug-ac6dd6bfe0fccfaf473a.json",
+					"name" : "stm32g4_cdc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc/build/Debug",
+		"source" : "C:/Users/abiew/OneDrive/Documents/ACUBEH/BEAMFORMERS-Firmware/BEAMFORMERS-BoardEngine/stm32g4_cdc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
